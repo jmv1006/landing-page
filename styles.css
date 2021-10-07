@@ -46,10 +46,11 @@ body {
 
 .sitewelcome {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
-    width: auto;
-    justify-content: space-evenly;
     background: #1F2937;
+    border: 0px;
 }
 
 .lsidestuff {
@@ -58,20 +59,27 @@ body {
     justify-content: center;
     align-items: flex-start;
     width: 500px;
+    padding-left: 50px;
 }
 
 .rsidestuff{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    flex-grow: 1;
+    padding: 0px;
+    margin: 0%;
+}
 
+img {
+    height: auto;
+    width: 200px
 }
 .compimage {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 20px;
     height: 100px;
 
 
@@ -81,6 +89,7 @@ body {
     font-size: 16px;
     color:lightgray;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
 }
 
 .bluebutton {
