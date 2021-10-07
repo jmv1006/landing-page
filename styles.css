@@ -51,18 +51,60 @@ body {
     height: 400px;
     width: auto;
     justify-content: space-evenly;
+    background: #1F2937;
 }
 
 .lsidestuff {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    width: 500px;
 }
 
+.rsidestuff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+}
 .compimage {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100px;
+    height: 100px;
 
 
 }
+
+.basetextwhite {
+    font-size: 16px;
+    color:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bluebutton {
+    background: #1569C7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 0;
+    padding: 8px;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+
