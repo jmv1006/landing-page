@@ -88,7 +88,7 @@ img {
 
 .basetextwhite {
     font-size: 16px;
-    color:lightgray;
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 15px;
 }
@@ -159,7 +159,11 @@ img {
 .maincontent2 {
     display: flex;
     background: lightgray;
-    height: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
 }
 
 .desc1 {
@@ -177,7 +181,7 @@ img {
 .subtext1 {
     display: flex;
     font-size: 12px;
-    color: black;
+    color:gray;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 15px;
     width: 120px;
@@ -185,4 +189,56 @@ img {
     align-items: flex-start;
     justify-content: flex-start;
     padding: 5px;
+}
+
+.quote {
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+    width: 600px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .quote2 {
+     font-size: 18px;
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+ }
+
+ .maincontent3 {
+     display: flex;
+     height: 200px;
+     background: white;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .calltoaction {
+     display: flex;
+     background: cornflowerblue;
+     height: 125px;
+     width: 700px;
+     border-radius: 6px;
+     align-items: center;
+     justify-content: space-evenly;
+     padding: 5px;
+ }
+
+ .ctals {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .bluebutton2 {
+     display: flex;
+     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    border: 2px solid white;
+    width: 100px;
+    background: transparent;
 }
