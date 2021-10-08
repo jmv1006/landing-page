@@ -74,7 +74,7 @@ body {
     margin: 0%;
 }
 
-img {
+.sw {
     height: auto;
     width: 200px
 }
@@ -141,9 +141,10 @@ img {
 .fourimages {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: row;
     width: 700px;
-    height: 123px;
+    height:500px;
     padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
@@ -153,9 +154,11 @@ img {
 .smallimgs {
     border: 2px solid #1F2937;
     border-radius: 5px;
-    width: 120px;
-    height: 120px;
+    width: 125px;
+    height: 125px;
 }
+
+
 .maincontent2 {
     display: flex;
     background: lightgray;
@@ -241,4 +244,17 @@ img {
     border: 2px solid white;
     width: 100px;
     background: transparent;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background: #1F2937;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
 }
